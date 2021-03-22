@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.position{
+    position: absolute;
+    right: 1.2%;
+}
+.nav-item {
+    width: 8.7rem;
+}
+.nav-item2 {
+    width: 3.6rem;
+    text-align: center;
+}
+.nav-item a{
+    font-size: 15px;
+    text-align: center;
+}
+.active{
+    background: brown;
+}
+body .aq{
+    background: url(../img/Warner-Bros-Studio-Tour-Harry-Potter-0863.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.nav-item:hover,.nav-item2:hover
+{
+    background: brown;
+}
+.main_bg{
+    background-color: #dcdddd;
+}
+.technology {
+    padding: 4% 0;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+}
+.technology h2 {
+    margin: 0 0 20px;
+    text-transform: capitalize;
+    font-size: 3em;
+    color: #3b3b3b;
+    font-family: 'texgyreadventorregular';
+}
+.technology h4 {
+    font-size: 22px;
+    color: #5b5b5b;
+    font-weight: 100;
+    text-transform: capitalize;
+    display: block;
+    margin: 10px 0 8px;
+}
+.tech_para {
+    padding-left: 0;
+    padding-right: 0;
+}
+.para {
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #868686;
+}
+.pull-right {
+    float: right !important;
+}
+.images_1_of_4 span {
+    width: 120px;
+    height: 120px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.col-md-2{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+}
+.bg {
+    transition: all 0.3s ease-in-out;
+    border-radius: 75px;
+}
+.images_1_of_4 span i {
+    font-size: 6em;
+    color: #333;
+    line-height: 2em;
+    text-shadow: 1px 1px 0px #3b3b3b;
+}
+.fa-copy:before, .fa-files-o:before {
+    content: "\f0c5";
+}
+
+.read_more a {
+    position: relative;
+    z-index: 1;
+}
+.btn-1e {
+    overflow: hidden;
+}
+.btn-1 {
+    border: 2px solid #ff5454;
+    color: #3b3b3b;
+}
+.fa-btn {
+    font-size: 14px;
+    cursor: pointer;
+    padding: 12px 40px;
+    display: inline-block;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    outline: none;
+    transition: all 0.3s;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+a {
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+.technology_list1 {
+    margin-top: 20px;
+}
+.technology h4 {
+    font-size: 22px;
+    color: #5b5b5b;
+    font-weight: 100;
+    text-transform: capitalize;
+    display: block;
+    margin: 10px 0 8px;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.pagination > li {
+    display: inline;
+}
+
+element.style {
+}
+.pagination > li {
+    display: inline;
+}
+.pagination>li {
+    display: inline;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+.pagination > li:first-child > a {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.pagination > li > a {
+    font-size: 16px;
+    padding: 10px 16px;
+    color: #BDBDBD;
+    background-color: #3b3b3b;
+    border: 1px solid #2C2929;
+}
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    line-height: 1.42857143;
+    text-decoration: none;
+}
+.alert-warning {
+    color: #3b3b3b;
+    background-color: #F3F3F3;
+    border-color: #E2E2E2;
+}
+.alert {
+    font-size: 13px;
+}
+.alert-dismissable {
+    padding-right: 35px;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.copy p {
+    color: #3b3b3b;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+p {
+    margin: 0 0 10px;
+}
+.blog_left {
+    display: block;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.blog_left img {
+    width: 100%;
+}
+.blog_img {
+    margin: 4% 0 2%;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}

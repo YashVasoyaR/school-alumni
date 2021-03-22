@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,0rem);
+    padding-left: var(--bs-gutter-x,0rem);
+}
+.navbar{
+    background-color: #afafaf;
+}
+.position{
+    position: absolute;
+    right: 1.2%;
+}
+.nav-item {
+    width: 8.7rem;
+}
+.nav-item2 {
+    width: 3.6rem;
+    text-align: center;
+}
+.nav-item a{
+    font-size: 15px;
+    text-align: center;
+}
+.active{
+    background: brown;
+}
+.nav-item:hover,.nav-item2:hover
+{
+    background: brown;
+}
+
+.slider_bg {
+    background: url(../img/Warner-Bros-Studio-Tour-Harry-Potter-0863.jpg) no-repeat;
+    background-size: 100%;
+}
+.container::before{
+        background: url(../images/slider_bg.jpg) no-repeat;
+        background-size: 100%;
+    
+}
+/* .da-slider {
+    font-family: 'texgyreadventorregular';
+    width: 100%;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+    transition: background-position 1s ease-out 0.3s;
+    text-align: center;
+}
+.da-slide-current {
+    z-index: 1000;
+}
+.da-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+}
+.da-slide-toleft h2 {
+    animation: toLeftAnim1 0.6s ease-in-out both;
+}
+.da-slide-current h2, .da-slide-current p, .da-slide-current .da-link {
+    left: 10%;
+    opacity: 1;
+}
+.da-slide h2 {
+    font-family: 'texgyreadventorregular';
+    text-transform: uppercase;
+    color: #202020;
+    width: 70%;
+    top: 90px;
+    font-size: 6em;
+    z-index: 10;
+    text-align: center;
+}
+.da-slide h2, .da-slide p, .da-slide .da-link, .da-slide .da-img {
+    position: absolute;
+    opacity: 0;
+    left: 110%;
+} */
+
+.main_bg{
+    background-color: #dcdddd;
+}
+.main {
+    padding: 5% 0;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-3{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+.images_1_of_4 span {
+    width: 120px;
+    height: 120px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.bg{
+    transition: all 0.3s ease-in-out;
+}
+.images_1_of_4 span i {
+    font-size: 6em;
+    color: #333;
+    line-height: 2em;
+    text-shadow: 1px 1px 0px #3b3b3b;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+.fa-globe:before {
+    content: "\f0ac";
+}
+.images_1_of_4 h4 {
+    margin: 30px 0 15px;
+}
+.images_1_of_4 h4 a {
+    display: inline-block;
+    color: #353535;
+    font-size: 1.5em;
+    font-family: 'texgyreadventorregular';
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.images_1_of_4 a {
+    position: relative;
+    z-index: 1;
+}
+
+.para {
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #868686;
+}
+.btn-1e {
+    overflow: hidden;
+}
+.btn-1 {
+    border: 2px solid #ff5454;
+    color: #3b3b3b;
+}
+a{
+    background: transparent;
+    text-decoration: none;
+
+}
+.fa-btn {
+    font-size: 14px;
+    cursor: pointer;
+    padding: 12px 40px;
+    display: inline-block;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    outline: none;
+    transition: all 0.3s;
+    -webkit-border-radius: 4px;
+}
+.btn-1e:after {
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #ff5454;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.fa-btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+}
+.images_1_of_4 span {
+    width: 120px;
+    height: 120px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.bg {
+    transition: all 0.3s ease-in-out;
+    -webkit-border-radius: 75px;
+}
+.images_1_of_4 span i {
+    font-size: 6em;
+    color: #333;
+    line-height: 2em;
+    text-shadow: 1px 1px 0px #3b3b3b;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.row::after{
+    clear: both;
+}
+.container::after{
+    clear: both;
+}
+
+.main_btm {
+    border-top: 1px solid rgb(233, 233, 233);
+    background-color: #dcdede;
+}
+.cau_left{
+    background: white;
+}
+.main {
+    padding: 5% 0;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row::before{
+    display: table;
+    content: " ";
+
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.owl-carousel .owl-item {
+    float: left;
+    margin: 1rem;
+}
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    color: #FFF;
+    zoom: 1;
+    margin: 5px;
+    height: 85px;
+    width: 34px;
+    display: block;
+    font-size: 12px;
+    -webkit-transition: 0.5s all;
+}
+.owl-controls .owl-page, .owl-controls .owl-buttons div {
+    cursor: pointer;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 23%;
+    left: -3%;
+    background: url(../images/c-arrows.png) no-repeat;
+}
+.owl-next {
+    position: absolute;
+    top: 23%;
+    right: -4%;
+    background: url(../images/c-arrows.png) no-repeat -39px 0px;
+}
